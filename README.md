@@ -42,14 +42,14 @@ This time, the p value is under the significance level of 0.05 which means that 
 ## Study Design: MechaCar vs Competition
 One of the key factors that influence a customer's satisfaction with a car is its gas milage. It can be measured by driving cars from different brands for a fixed distance and then comparing gas levels after the test. 
 
-We can start this analysis by conducting the ANOVA test.THe ANOVA test will give us a p value that will enable us to accept or reject the null hypothesis. If the p value is lower than the significance level, it means that at least one of the means of the cars is different. The hypotheses will be as follows:</br>
-Null Hypothesis: The mean of the gas mileage is the same for all car brands.</br>
-Alternative Hypothesis: The mean of the gas milage of at least on of the car brands is different.</br>
+We can start this analysis by conducting the ANOVA test.THe ANOVA test will give us a p value that will enable us to accept or reject the null hypothesis. If the p value is lower than the significance level, it means that at least one of the means of the cars is different. The hypotheses will be as follows:</br></br>
+<strong>Null Hypothesis:</strong>: The mean of the gas mileage is the same for all car brands.</br>
+<strong>Alternative Hypothesis:</strong> The mean of the gas milage of at least on of the car brands is different.</br>
 
 Then we can do further analysis using a series of paired T tests to compare MechaCar with its competitors individually.
-The hypotheses of each of the paired t tests will be:</br>
-Null Hypothesis: The difference between our paired observations (the true mean difference, or "μd") is equal to zero.</br>
-Alternative Hypothesis : The difference between our paired observations (the true mean difference, or "μd") is not equal to zero.</br>
+The hypotheses of each of the paired t tests will be:</br></br>
+<strong>Null Hypothesis:</strong> The difference between our paired observations (the true mean difference, or "μd") is equal to zero.</br>
+<strong>Alternative Hypothesis:</strong> The difference between our paired observations (the true mean difference, or "μd") is not equal to zero.</br>
 
 The paired t test will give us a P value that will enable us to accept or reject the null hypothese. It will also give us a difference in means that will enable us to compare the gas mileage of MechaCar with each of its competitors.
 
