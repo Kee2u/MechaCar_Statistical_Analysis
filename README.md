@@ -13,7 +13,7 @@ These significant variables in our model show that we cannot reject the null hyp
 The r-squared value is 0.71, which means that roughly 71% of all mpg data can be predicted using this linear model. It is a good fit for the current dataset but the lack of independent variables alludes to the face that this model might be overfitting the data.
 
 ## Summary Statistics on Suspension Coils
-I also calculated summary statistics for the pounds per square inch of suspension coils for manufacturing lots. Here are the results:
+I calculated summary statistics for the pounds per square inch of suspension coils for manufacturing lots. Here are the results:
 
 The design specifications require that the variance of the suspension coils must not exceed 100 pounds per square inch. As a whole, the variance is within those specifications.</br></br>
 <img src = "https://github.com/Kee2u/MechaCar_Statistical_Analysis/blob/main/images/total_summary.PNG?raw=true">
@@ -21,3 +21,20 @@ The design specifications require that the variance of the suspension coils must
 Once we look at the data by lots, however, we notice that lot 3 does not meet these specifications. There must have been a problem in the manufacturing process while lot 3 was being built.</br></br>
 <img src = "https://github.com/Kee2u/MechaCar_Statistical_Analysis/blob/main/images/lot_summary.PNG?raw=true">
 
+## T-Tests on Suspension Coils
+Here are the T test results for the suspension coils: </br>
+### Combined Lots t test: </br>
+The p value is over the significance level of 0.05 which means that the null hypothesis cannot be rejected and the mean of all the lots combined is statistically similar to the population mean of 1500.</br>
+<img src = "https://github.com/Kee2u/MechaCar_Statistical_Analysis/blob/main/images/population_ttest.PNG?raw=true">
+
+### Lot 1 t test: </br>
+The p value is over the significance level of 0.05 which means that the null hypothesis cannot be rejected and the mean of lot 1 is statistically similar to the population mean of 1500.</br>
+<img src = "https://github.com/Kee2u/MechaCar_Statistical_Analysis/blob/main/images/lot1_ttest.PNG?raw=true">
+
+### Lot 2 t test: </br>
+The p value is over the significance level of 0.05 which means that the null hypothesis cannot be rejected and the mean of lot 2 is statistically similar to the population mean of 1500.</br>
+<img src = "https://github.com/Kee2u/MechaCar_Statistical_Analysis/blob/main/images/lot2_ttest.PNG?raw=true">
+
+### Lot 3 t test: </br>
+This time, the p value is under the significance level of 0.05 which means that the null hypothesis can be rejected and the mean of lot 3 is not statistically similar to the population mean of 1500.</br>
+<img src = "https://github.com/Kee2u/MechaCar_Statistical_Analysis/blob/main/images/lot3_ttest.PNG?raw=true">
