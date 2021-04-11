@@ -38,3 +38,19 @@ The p value is over the significance level of 0.05 which means that the null hyp
 ### Lot 3 t test: </br>
 This time, the p value is under the significance level of 0.05 which means that the null hypothesis can be rejected and the mean of lot 3 is not statistically similar to the population mean of 1500.</br>
 <img src = "https://github.com/Kee2u/MechaCar_Statistical_Analysis/blob/main/images/lot3_ttest.PNG?raw=true">
+
+## Study Design: MechaCar vs Competition
+One of the key factors that influence a customer's satisfaction with a car is its gas milage. It can be measured by driving cars from different brands for a fixed distance and then comparing gas levels after the test. 
+
+The null hypothesis here is the mean of the gas mileage is the same for all car brands.
+The alternative hypothesis is the mean of the gas milage of at least on of the car brands is different.
+
+THe ANOVA test will give us a p value that will enable us to accept or reject the null hypothesis. If the p value is lower than the significance level, it means that at least one of the means of the cars is different. Then we can do further analysis using a series of paired T tests to compare MechaCar with its competitors individually.
+The hypotheses of each of the paired t tests will be:
+
+Null Hypothesis: The difference between our paired observations (the true mean difference, or "μd") is equal to zero.
+Alternative Hypothesis : The difference between our paired observations (the true mean difference, or "μd") is not equal to zero.
+
+The paired t test will give us a P value that will enable us to accept or reject the null hypothese. It will also give us a difference in means that will enable us to compare the gas mileage of MechaCar with each of its competitors.
+
+The data collected needs to be numerical and continuous, normally distributed, reasonably large and with similar variance between groups.
